@@ -1,0 +1,63 @@
+# Specifications:
+## 1.Design
+- Levels of learning will all induce a sort of problem solving theme and will be formatted as follows, for example in the java language:
+  - Basic concepts 
+  - Conditions
+  - Arrays
+  - Lists
+  - Classes
+  - Objects
+  - OOP (object-oriented-programming)
+  - Exceptions
+  - Threads
+  - Files
+- Youtube videos are embedded into the app to assist in explanation; two to three questions are asked after each video.
+- Password is preffered to be a minimum of 8-alphanumeric characters.
+- The quizzes can be timed or not timed (depending on the instructor).
+- Some features can be accessed without internet connection.
+- Students will be able to change basic personal information in their accounts.
+- A short diagnostic quiz can be taken at the beginning of a course to see where the student stands with respect to it.
+- All courses are for free.
+- Courses can be public or private, anyone can register for public courses; whereas, access codes will be generated for the instructors who create private courses aimed that target specific students.
+- All teachers are considered admins to their course(s).
+
+
+## 2.Functionailities
+- Notifications will pop up as many times as needed for the student.
+- A student can use their email to sign in.
+- An Instructor account should enable the instructor to update records and view the progress of student records.
+- A student can choose if their profile or progress can be viewed publicly or privately (the default is public).
+- The Instructor has the choice of allowing exam retakes and point deductions (by default 3 retakes are allowed with 25% reduction each time)
+- Instant messaging between the instructor and students is available.
+- A student will have access previous lessons.
+- A discussion board will be provided.
+- The instructor will be able to upload any material they consider important to their courses.
+- A progress report of all students is sent to the instructor periodically containing the students grades, topics covered, quizzes done and topics to be covered.
+- Hints will appear after a failed attempt to solve a problem.
+- The app will support the rotation feature.
+- A mechanism for making the process of lesson creation easier is provided for the instructor rather than having them hardcoded into the app.
+- A "Remember me" option will be included for the user and with no activity they will be logged out automatically.
+- Once a student registers for a course they are automatically added and do not need to wait for any type of confirmation.
+
+
+## 3.Rules
+- There should be a minimum length for the password.
+- Priority of tasks is consecutive, oldest lesson/ most priority and the deductions on due lessons are determined by the instructors.
+- Lessons cannot be skipped and the student must take them consecutively.
+- The student can take the quiz of the week regardless of their completion of that week's respective assignments. However, when the student starts a new module/week they are given a zero on incomplete assignments.
+- No extensions for deadlines and counting starts the day the student starts the module.
+- When going through the course the student can start and end the course at their own convienence.
+- The instructor decides what programming languages the students can use in his/her course, and can assign extra-assignments any way they like
+- It depends on the teacher the weights of different tasks (ex: harder tasks have higher weight in the overall grade)
+
+
+## 4.Decisions to be made by the team
+- The storage of the user's information, progress, log-in info.
+- Format of evaluation of the student.
+- If a leader board should be provided.
+- If sandbox IDE's should be included.
+- Name and icon of the app.
+- If we should include the short diagnostic quiz function.
+- Which way to reset a user's password.
+- The grading system, (and should stay consistent throughout the whole app).
+- A mini project can be added to the end of each module, and no functionalities or modules will depend on it.
